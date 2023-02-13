@@ -10,8 +10,6 @@ This is a *GitHub template* repo. To use it, go to [the repo URL](https://github
 
 Don't forget to replace this `README.md` file with information about your own project, at some point.
 
-(PS: Don't forget to change the title in the `index.html` file.)
-
 ## How to Use the Code
 
 The files and directory structure will look familiar if you've used [our p5.js template repos](https://github.com/orgs/FSUdigitalmedia/repositories?q=&type=template&language=&sort=) before. The [libraries](libraries/) folder contains copies of both the p5.js and WebSerial libraries. The code inside `serialfunctions.js` could just as easily be inside `sketch.js`. It contains functions specific to WebSerial communications. They're in a separate file to simplify `sketch.js` and it's unlikely that you'll need to change them for your project. Definitely look at the code in there, so you can understand how everything works.
@@ -26,4 +24,4 @@ Why bother with this back-and-forth communication? The alternative is to just ha
 
 ## Credits
 
-This template was created by [Rob Duarte](https://github.com/rahji). Much of the code was adapted from the labs that [Tom Igoe](https://tisch.nyu.edu/about/directory/itp/3558397) wrote for his [Physical Computing course at ITP](https://itp.nyu.edu/physcomp/).
+This template was created by [Rob Duarte](https://github.com/rahji). My original version was adapted from the labs that [Tom Igoe](https://tisch.nyu.edu/about/directory/itp/3558397) wrote for his [Physical Computing course at ITP](https://itp.nyu.edu/physcomp/). The current version is adapted from the examples in [the p5.webserial library](https://github.com/gohai/p5.webserial) (which seems to be a different p5.webserial than the one that Tom used.)
