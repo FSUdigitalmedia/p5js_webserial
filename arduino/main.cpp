@@ -8,7 +8,7 @@
 const int buttonPin = 3;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(57600);
 
   pinMode(buttonPin, INPUT_PULLUP);
   
