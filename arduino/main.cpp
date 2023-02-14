@@ -1,5 +1,7 @@
 #include <Arduino.h>
 // above line is required for PlatformIO
+// if you are using PIO, you should also add this line to your platform.ini file:
+// monitor_speed = 57600
 
 // connect a joystick to the Arduino:
 // pins A0 & A1 are connected to the X & Y pots of the joystick
